@@ -1,12 +1,12 @@
 <template>
-				<!-- 首页轮播图 -->
-				<div class="carousel">
-					<div>
-						<a href="#" v-for="(list,index) in carouselbooks" v-show="index==currentindex" :key="index"  >
-						  <img :src="list" alt=""/>
-						</a>
-					</div>
-				</div>
+	<!-- 首页轮播图 -->
+	<div class="carousel">
+		<div>
+			<a href="#" v-for="(list,index) in carouselbooks" v-show="index==currentindex" :key="index"  >
+				<img :src="list" alt=""/>
+			</a>
+		</div>
+	</div>
 </template>
 
 <script>
